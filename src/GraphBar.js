@@ -16,3 +16,6 @@ class GraphBar extends Component {
         );
     }
 }
+
+
+export default GraphBar;

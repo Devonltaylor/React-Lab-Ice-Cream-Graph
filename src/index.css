@@ -1,122 +1,57 @@
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  padding: 30%;
   font-family: sans-serif;
+  background-color: darkseagreen;
 
-  background-color: #fcfcfc;
 }
 
 .GraphBar {
   display: flex;
   justify-content: flex-start;
-  width: 500px;
-  border: black 2px solid;
-  padding: 25px;
-}
+  width: 100%;
+  border: turquoise 5px solid;
+  margin: 0 auto;
+  color: orange;
+  padding: 5%;
 
-.label {
-  border: black 2px solid;
-  width: 100;
-  margin-right: 20px;
-}
+ }
+
+ .label {
+   border: black 1px dashed;
+   width: 100px;
+   margin-right: 20px;
+   padding: 5px;
+   background-color: lightyellow;
+   color: purple;
+   text-align: center;
+ }
 
 .value {
-  border: black 2px solid;
-  width: 100;
+  border: black 1px solid;
+  width: 100px;
   text-align: center;
+  background-color: purple;
+  color: lightyellow;
+  text-align: center;
+  font-weight: bold;
+  }
+
+button {
+  display: flex;
+  justify-content: center;
+  margin: 5% auto;
+  padding: 2%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: khaki;
+  color: purple;
+  border: purple 1px solid;
+
+
 }
 
-/*h1 {
-    text-align: center;
-}
 
-.App__contacts {
-    margin: 2em;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
+  .Graph {
 
-@media only screen and (max-width: 600px) {
-    .App__contacts {
-        margin: 0;
-    }
-}
-
-.ContactCard, .ContactForm {
-    background-color: white;
-    box-shadow: 2px 2px 10px 2px #aaa;
-    padding: 5%;
-    text-align: center;
-    margin-bottom: 1.5em;
-    box-sizing: border-box;
-    width: 48%;
-    position: relative;
-}
-
-@media only screen and (max-width: 750px) {
-    .ContactCard, .ContactForm {
-        width: 100%;
-    }
-}
-
-.ContactCard__img {
-    max-width: 100%;
-    max-height: 400px;
-}
-
-.ContactCard__name {
-    font-weight: bold;
-    font-size: 180%;
-    margin: 4px 0;
-}
-
-.ContactCard__delete-button {
-    display: block;
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    line-height: 14px;
-    font-size: 14px;
-    border: 1px solid tomato;
-    border-radius: 50%;
-    color: tomato;
-    background-color: white;
-    outline: none;
-}
-
-.ContactCard__delete-button:hover {
-    color: white;
-    background-color: tomato;
-}
-
-.ContactForm p {
-    display: flex;
-}
-
-.ContactForm label {
-    width: 7em;
-    text-align: left;
-    font-weight: bold;
-}
-
-.ContactForm input, .ContactForm select {
-    flex-grow: 1;
-    font-size: 100%;
-}
-
-.ContactForm input {
-    padding: 2px 6px;
-}
-
-.ContactForm button {
-    font-size: 100%;
-    margin-left: 7em;
-}
-
-.ContactForm__button-bar {
-    text-align: center;
-}*/
+  }
